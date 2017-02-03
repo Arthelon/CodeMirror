@@ -56,7 +56,7 @@
     this.startLen = this.cm.getLine(this.startPos.line).length - this.cm.getSelection().length;
 
     var self = this;
-    cm.on("cursorActivity", this.activityFunc = function() { self.cursorActivity(); });
+    // cm.on("cursorActivity", this.activityFunc = function() { self.cursorActivity(); });
   }
 
   var requestAnimationFrame = window.requestAnimationFrame || function(fn) {

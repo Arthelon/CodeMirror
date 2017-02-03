@@ -1,8 +1,8 @@
 {
-  "name": "codemirror",
+  "name": "codemirror-sane",
   "version": "5.23.0",
   "main": "lib/codemirror.js",
-  "description": "Full-featured in-browser code editor",
+  "description": "Custom fork of the codemirror editor",
   "license": "MIT",
   "directories": {
     "lib": "./lib"
